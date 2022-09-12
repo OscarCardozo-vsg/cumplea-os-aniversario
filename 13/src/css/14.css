@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.izquierda{
+    background-image: radial-gradient(circle at 50% -20.71%, #ffdee5 0, #ffd7e3 10%, #ffcfe1 20%, #ffc6e0 30%, #fbbedf 40%, #f2b5de 50%, #e8adde 60%, #dda6df 70%, #d0a0e0 80%, #c39ce2 90%, #b498e5 100%);
+    height: 100vh;
+    width: 50%;
+}
+
+.derecha{
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.dividida{
+    display: flex;
+    height: 100vh;
+}
+
+iframe{
+    margin: auto;
+    padding-top: 50px;
+    display: block;
+}
+
+hr{
+    border-style: double;
+    height: 6px;
+    border: none;
+    background-image: radial-gradient(circle at -19.64% 37.72%, #c986ed 0, #a167d9 25%, #6e46c1 50%, #2b28a9 75%, #001697 100%);
+    margin: 50px 25px;
+}
+
+p{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}

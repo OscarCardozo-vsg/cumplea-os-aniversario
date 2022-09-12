@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+.derecha{
+    display: flex;
+    padding: 5px;
+    overflow: scroll;
+}
+
+.columnas{
+    flex: 33%;
+    padding: 5px;
+}
+
+.columnas img{
+    margin-top: 5px;
+}
+
+@media (max-width: 800px){
+    .columnas{
+        flex: 50%;
+    }
+}
+
+@media (max-width: 600px){
+    .columnas{
+        flex: 100%;
+    }
+}
