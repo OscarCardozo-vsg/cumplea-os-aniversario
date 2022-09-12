@@ -1,0 +1,64 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(270deg, #e944e5 0, #d23fec 25%, #b53cf2 50%, #923cf8 75%, #643ffe 100%);
+  font-family: 'Dancing Script', cursive;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;  
+}
+
+.background{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  padding: 100px;
+}
+
+.home-content {
+  width: auto;
+  height: auto;
+  margin: 0 150px;
+  background-color: whitesmoke;
+  opacity: 0.8;
+  z-index: 2;
+}
+  
+.home-content h1 {
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 80px;
+  line-height: 1.1;
+  opacity: initial;
+  margin-top: 230px;
+}
+
+.home-content p {
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  opacity: initial;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.home-content a{
+  text-decoration: none;
+  font-size: 100px;
+  opacity: initial;
+  padding-top: 50px;
+}
+
+
+
